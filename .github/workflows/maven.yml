@@ -22,6 +22,8 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
+    - name: Changing directory
+      run: cd Aula-GitHub-Actions
     - name: Test with Maven
       run: mvn clean test
       
